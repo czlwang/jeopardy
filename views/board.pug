@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    h1 hello
+    button(type='button' id="reset_button" class='btn btn-primary') test
+    - for (var i=0; i<5; i++)
+        div.row.pt-3
+            - for (var j=0; j<6; j++)
+                div.col-2.pt-3
+                    a(type='button' class='btn btn-primary btn-block') $#{200*(i+1)}
+    script(src="board.js")
+
+
