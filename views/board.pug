@@ -15,6 +15,9 @@ block content
                     a(type='button' class='btn btn-block ' + done_class  href="/question/" + i + "/" + j style="font-size:25px") $#{200*(i+1)}
     div.row.mt-3
        div.col-12.text-center
+           -var done_class = "btn-primary"
+           if done[0][6]
+               - done_class = "btn-secondary"
            a(type='button' class='btn btn-block ' + done_class  href="/question/0/6" style="font-size:25px") final jeopardy
     div.row.mt-3
        div.col-2.offset-5.text-center

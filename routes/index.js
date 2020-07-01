@@ -8,7 +8,7 @@ var red_score = 0;
 var done = [];
 for(var i=0; i<5; i++){
     var row = []
-    for(var j=0; j<6; j++){
+    for(var j=0; j<7; j++){
         row.push(false);
     }
     done.push(row);
@@ -65,7 +65,7 @@ router.post('/reset', (req, res) => {
   done = []
   for(var i=0; i<5; i++){
       var row = []
-      for(var j=0; j<6; j++){
+      for(var j=0; j<7; j++){
           row.push(false);
       }
       done.push(row);

@@ -55,7 +55,8 @@
             "questions":[
                 {
                  "question": "This celebrity can be seen in a popular image macro, eating a sandwich with a downcast expression",
-                 "answer": "Keanu Reeves"
+                 "answer": "Keanu Reeves",
+                 "img": "sad.jpg"
                 },
                 {
                  "question": "This word was coined by Richard Dawkins to describe a cultural analogue to the gene",
@@ -79,24 +80,25 @@
             "category": "historical", 
             "questions":[
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "These two Massachusetts towns were the sites of the first battle of the Revolutionary War",
+                 "answer": "Lexington and Concord"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "In 1659, the General Court of the Massachusetts Bay Colony made it a criminal offense to publicly celebrate this holiday.",
+                 "answer": "Christmas"
                 },
                 {
                  "question": "Later an American president, this man successfully defended British soldiers against murder charges arising from the Boston Massacre",
-                 "answer": "John Adams"
+                 "answer": "John Adams",
+                 "daily_double": "true"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "In 1891, this sport was invented by James Naismith in Springfield, MA to keep his gym students busy on on a rainy day.",
+                 "answer": "Basketball"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "Massachusetts was originally inhabited by tribes of this language family, among which were the Wampanoag, Narragansett, and Massachusett",
+                 "answer": "Algonquin"
                 }
             ]
         },
@@ -104,25 +106,29 @@
             "category": "biblical", 
             "questions":[
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
-                },
-                {
-                 "question": "TODO",
-                 "answer": "TODO"
-                },
-                {
-                 "question": "TODO",
-                 "answer": "TODO"
-                },
-                {
-                 "question": "TODO",
-                 "answer": "TODO",
+                 "question": "This painting from the Sistine Chapel shows these two human characters.",
+                 "answer": "Adam and Eve",
                  "img": "one.jpg"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "The name of this event gives the title to the below painting by Raphael",
+                 "answer": "The Transfiguration",
+                 "img": "two.jpg"
+                },
+                {
+                 "question": "These two Old Testament characters are shown in this Giovanni De Min painting.",
+                 "answer": "King Solomon and the Queen of Sheba",
+                 "img": "three.jpg"
+                },
+                {
+                 "question": "The painting below by Rembrandt shows God's warning to this Babylonian king from the book of Daniel",
+                 "answer": "Belshazzar",
+                 "img": "four.jpg"
+                },
+                {
+                 "question": "This judge, depicted in the painting, slew Sisera to deliver Israel from the troops of King Jabin",
+                 "answer": "Jael",
+                 "img": "five.jpg"
                 }
             ]
         },
@@ -130,25 +136,29 @@
             "category": "lyrical", 
             "questions":[
                 {
-                 "question": "TODO",
-                 "answer": "TODO",
-                 "audio": "dadi.m4a"
+                 "question": "The clip below contains singing in this language. The sample is taken from the 2019 album Map of the Soul.",
+                 "answer": "Korean",
+                 "audio": "one.m4a"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "The clip below contains singing by the artist Stromae in this language.",
+                 "answer": "French",
+                 "audio": "two.m4a"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "The clip below contains singing in this language, which is the most widely spoken language in Brazil.",
+                 "answer": "Portuguese",
+                 "audio": "three.m4a"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "The clip below contains singing in this language. The clip comes from a 2020 song, which is a favorite to win Eurovision 2020.",
+                 "answer": "Icelandic",
+                 "audio": "four.m4a"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "The clip below contains singing in this language and blends rap and traditional throat singing.",
+                 "answer": "Mongolian",
+                 "audio": "five.m4a"
                 }
             ]
         },
@@ -156,8 +166,8 @@
             "category": "final_jeopardy", 
             "questions":[
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "This Massachusetts town is the birthplace of Abigail and John Adams, and is a terminal stop on an MBTA subway line",
+                 "answer": "Braintree"
                 }
             ]
         }
