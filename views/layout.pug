@@ -6,6 +6,12 @@ head
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
 body
     div.container.mt-3
-        h1 hello
+        div.row.mt-3
+           div.col-2
+               h2(id="blue_score" style="color:blue")= blue_score
+           div.col-2.offset-3.text-center
+               a(href="/board") home 
+           div.col-2.offset-3.text-right
+               h2(id="red_score" style="color:red")= red_score
         block content
-
+    block scripts

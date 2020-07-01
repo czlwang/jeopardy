@@ -2,7 +2,7 @@ $( "#reset_button" ).click(function() {
     //var sentence = $("#sentence").val();
     //console.log(example);
     $.ajax({
-        url: '/points',
+        url: '/reset',
         type: 'POST',
         data: {"sentence": "sentence",
                "example": "example",

@@ -1,13 +1,23 @@
 extends layout
 
 block content
-    h1 hello
-    button(type='button' id="reset_button" class='btn btn-primary') test
+    div.row.pt-3
+        - for (var j=0; j<6; j++)
+            div.col-2.pt-3.text-center
+                h2= category_names[j]
     - for (var i=0; i<5; i++)
         div.row.pt-3
             - for (var j=0; j<6; j++)
                 div.col-2.pt-3
-                    a(type='button' class='btn btn-primary btn-block') $#{200*(i+1)}
+                    -var done_class = "btn-primary"
+                    if done[i][j]
+                        - done_class = "btn-secondary"
+                    a(type='button' class='btn btn-block ' + done_class  href="/question/" + i + "/" + j style="font-size:25px") $#{200*(i+1)}
+    div.row.mt-3
+       div.col-12.text-center
+           a(type='button' class='btn btn-block ' + done_class  href="/question/0/6" style="font-size:25px") final jeopardy
+    div.row.mt-3
+       div.col-2.offset-5.text-center
+           a(id="reset_button" href="#") reset 
+block scripts
     script(src="board.js")
-
-

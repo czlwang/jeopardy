@@ -4,24 +4,24 @@
             "category": "edible",
             "questions":[
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "This traditional Mesoamerican dish is made of masa which is steamed in a corn husk or banana leaf.",
+                 "answer": "Tamale"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "These translucent balls are produced from a starch extracted from the cassava root.",
+                 "answer": "Boba"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "This spice, derived from the flower of Crocus sativus, has long been the world's most costly spice by weight.",
+                 "answer": "Saffron"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "This unleavened bread is an integral part of the Jewish festival of Passover.",
+                 "answer": "Matzo"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "This pizza from Naples is made with tomatoes, mozzarella, fresh basil, salt, and olive oil. It is named in honor of an Italian queen.",
+                 "answer": "Pizza Margherita"
                 }
             ]
         },
@@ -29,24 +29,24 @@
             "category": "fictional", 
             "questions":[
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "This character also goes by Mithrandir, Greyhame, and later, The White Rider",
+                 "answer": "Gandalf"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "This is the author of The Underland Chronicles and The Hunger Games.",
+                 "answer": "Suzanne Collins"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "In the Harry Potter series, this is the animal mascot of Hufflepuff house.",
+                 "answer": "Badger"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "Digory Kirke and Polly Plummer are the main characters in this children's book by C.S. Lewis.",
+                 "answer": "The Magician's Nephew"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "Under this pseudonym, David Handler wrote The Beatrice Letters, as well as a 13 book series which has since gone on to spawn a film (2004), video game (2004), and Netflix series (2017)",
+                 "answer": "Lemony Snicket"
                 }
             ]
         },
@@ -54,24 +54,24 @@
             "category": "cultural", 
             "questions":[
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "This celebrity can be seen in a popular image macro, eating a sandwich with a downcast expression",
+                 "answer": "Keanu Reeves"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "This word was coined by Richard Dawkins to describe a cultural analogue to the gene",
+                 "answer": "Meme"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "This slang refers to a particularly avid fan and is a reference to a 2000 song by the American rapper Eminem",
+                 "answer": "Stan"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "Since it's creation by Matt Furie in 2005, this green anthropocentric frog has come to be associated with 4chan, Tumblr, the alt-right, and Hong Kong protesters",
+                 "answer": "Pepe the Frog"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "Founded by Dom Hofmann, this social media platform had over 200 million users at its peak. Twitter announced that it was being discontinued in 2017.",
+                 "answer": "Vine"
                 }
             ]
         },
@@ -87,8 +87,8 @@
                  "answer": "TODO"
                 },
                 {
-                 "question": "TODO",
-                 "answer": "TODO"
+                 "question": "Later an American president, this man successfully defended British soldiers against murder charges arising from the Boston Massacre",
+                 "answer": "John Adams"
                 },
                 {
                  "question": "TODO",
@@ -117,7 +117,8 @@
                 },
                 {
                  "question": "TODO",
-                 "answer": "TODO"
+                 "answer": "TODO",
+                 "img": "one.jpg"
                 },
                 {
                  "question": "TODO",
@@ -130,7 +131,8 @@
             "questions":[
                 {
                  "question": "TODO",
-                 "answer": "TODO"
+                 "answer": "TODO",
+                 "audio": "dadi.m4a"
                 },
                 {
                  "question": "TODO",
@@ -149,6 +151,16 @@
                  "answer": "TODO"
                 }
             ]
+        },
+        {
+            "category": "final_jeopardy", 
+            "questions":[
+                {
+                 "question": "TODO",
+                 "answer": "TODO"
+                }
+            ]
         }
+
     ]
 }
